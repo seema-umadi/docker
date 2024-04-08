@@ -1,6 +1,6 @@
 # docker
 
-1. what is docker
+1. what is docker?
 	docker is open source containerization platform. it enables developers to package application into containers.
 
 2. how containers are different from virtual machines?
@@ -43,3 +43,12 @@
 
 10. what are distroless image?
 	distroless images contain only your application and its runtime dependencies with a very minimum operating system libraries. they do not contain package managers, shells or any other programs you would expect to find in a standard linux distribution. they are very small and lightweighted images.
+
+12. what is volume in docker?
+	creating volume is a way to stored data on host file system. separate from the containers filesystem. so that the data can persist even if the container is deleted and recreated.
+
+13. what is bind mount?
+	Bind mounts have the same behavior as volumes, but are specified using a host path instead of a volume name.
+
+   
+	
